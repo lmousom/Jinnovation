@@ -20,6 +20,10 @@ h2 {
   font-size: 36px;
   color: #333;
 }
+.logo {
+  width: 40px;
+  height: 40px;
+}
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -72,7 +76,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 10px;
+  padding: 12px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -82,7 +86,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
+  font-size: 15px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -208,17 +212,21 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background-color: #ffffff;
-  background-image: linear-gradient(0deg, #ffffff 26%, #beffff 100%);
-  /* background: url(../img/2.jpg); */
+  /* background-color: #ffffff;
+  background-image: linear-gradient(0deg, #ffffff 26%, #beffff 100%); */
+  background: url(../img/bg.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 /* .intro .overlay {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
 } */
+
+.sub-heading {
+  padding-bottom: 20px;
+}
 .intro h1 {
   font-family: 'Raleway', sans-serif;
   color: rgb(26, 2, 131);
